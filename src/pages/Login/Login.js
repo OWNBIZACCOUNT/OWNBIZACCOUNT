@@ -29,7 +29,6 @@ export default function Login() {
       <div className={styles.logo}>
         <span className={styles.gold}>OWN</span>
         <span className={styles.navy}>BIZACCOUNT</span> 
-        <h1>hello</h1>
       </div>
 
       <div className={styles.card}>
