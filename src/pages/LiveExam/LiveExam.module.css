@@ -1,0 +1,24 @@
+.page {
+  /* existing card styles */
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+
+  /* new background color */
+  background-color: #eef6ff;
+
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #2E3A59;
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #4A5568;
+}

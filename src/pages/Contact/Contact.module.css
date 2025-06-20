@@ -1,0 +1,63 @@
+/* remove any padding from the container */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f7fa;
+  /* no padding here! */
+}
+
+/* full-bleed banner */
+.banner {
+  width: 100vw;                           /* span the entire viewport width */
+  position: relative;
+  left: 50%;                              /* center it */
+  transform: translateX(-50%);            /* offset by half its width */
+  height: auto;
+  max-height: 50vh;                       /* optional: limit height */
+  object-fit: cover;
+}
+
+/* details moved down from the banner */
+.details {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 2rem;                       /* space beneath the banner */
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  color: #2E3A59;
+}
+
+/* rest unchanged */
+.heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #4A5568;
+}
+
+.details p {
+  margin-bottom: 0.75rem;
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.facebookIcon {
+  font-size: 2rem;
+  color: #3b5998;
+  transition: color 0.2s;
+}
+
+.facebookIcon:hover {
+  color: #2d4373;
+}
