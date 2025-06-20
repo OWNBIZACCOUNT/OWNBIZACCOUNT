@@ -29,6 +29,9 @@ export default function Login() {
       <div className={styles.logo}>
         <span className={styles.gold}>OWN</span>
         <span className={styles.navy}>BIZACCOUNT</span>
+        <span className={styles.tagline}>
+          {isSupplier ? 'Supplier Portal' : 'Customer Portal'}
+        </span>
       </div>
 
       <div className={styles.card}>
